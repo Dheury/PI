@@ -1,0 +1,83 @@
+﻿<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+
+<head>
+    <title> Agendamento IDACE / Menu Agendamento </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Marcos Felix">
+    <meta name="description" content="IDACE">
+    <link rel="stylesheet" href="css/paginaPrincipal_scc_1_1.css">
+
+</head>
+
+<body>
+
+    <input type="checkbox" class="check" id="check">
+    <label id="icone" for="check"><img src="imagem/icone_menuLateral.png"></label>
+
+    <div class="barra">
+        <div class="imaLogosMenu1">
+            <img id="govce" src="imagem/Logo governo_150px.png">
+        </div>
+
+        <nav>
+            <fieldset class="menuNomeUsuario">
+                <div>
+                    <p id="pmenu">Olá,</p>
+                    <input type="text" id="mNome" name="getnome" placeholder=" Nome do Usuário ">
+                </div>
+            </fieldset>
+
+            <div class="link"><img id="icone1" src="imagem/icone_1.png"> Inicio</div>
+            <div class="link"><img id="icone2" src="imagem/icone_2.png"> Meus dados</div>
+            <div class="link"><img id="icone3" src="imagem/icone_3.png"> Noticias</div>
+            <div class="link"><img id="icone4" src="imagem/icone_4.png"> Sair</div>
+
+        </nav>
+
+    </div>
+
+    <form action="#" method="POST" class="formMenuAgedamento">
+
+
+        <fieldset class="nomeUsuario">
+            <div>
+                <input type="text" id="getnome" name="getnome" placeholder=" Nome do Usuário ">
+                <input type="text" id="getcpf" name="getcpf" placeholder="Numero CPF usuário">
+            </div>
+        </fieldset>
+
+
+        <h1 class="menuh1">Agendamento <span class=" idaceFonte ">IDACE</span></h1>
+
+        <!-- formMenuAgedamento -->
+        <fieldset class="fielmenuAgendamento">
+
+            <button type="submit" class="button_agendar"><br>Agendar
+                <p><img id="idace1" src="imagem/icone agenda.png"></p>
+            </button>
+
+            <button type="submit" class="button_meusAgendamento"><br>Meus Agendamentos
+                <p><img id="idace2" src="imagem/Eventos.png"></p>
+            </button>
+
+            <button type="submit" class="button_entregaTitulos"><br>Entrega de Titulos
+                <p><img id="idace3" src="imagem/meus agendamentos.png"></p>
+            </button>
+
+            <button type="submit" class="button_contato"><br>Contato                                
+                <p><img id="idace4" src="imagem/Contato.png"></p>
+            </button>
+
+        </fieldset>
+
+    </form>
+
+    <div class="imaLogosMenu2">
+        <img id="idaceMenu" src="imagem/logo-idace.png" alt="">
+    </div>
+
+</body>
+
+</html>
