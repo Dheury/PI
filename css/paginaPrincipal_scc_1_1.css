@@ -58,7 +58,7 @@ h1 {
     margin-bottom: 20px;
     color: white;
     font-size: 2em;
-    background-color: #9ab991;
+    background-color: #c5c4c5;
 }
 
 .imaLogos {
@@ -69,7 +69,7 @@ h1 {
 }
 
 .idaceFonte {
-    color: #fd9727;
+    color: #1c4b7a;
 }
 
 .formLogin {
@@ -119,7 +119,7 @@ h1 {
     top: 10%;
     left: 52.6%;
     margin-right: 2px;
-    background: linear-gradient(174deg, rgb(206, 128, 93) 0%, rgb(165, 78, 7) 71%);
+    background: linear-gradient(174deg, rgb(238, 227, 228) 0%, rgb(124, 178, 209) 71%);
     color: white;
     font-size: 3em;
     text-align: center;
@@ -127,7 +127,7 @@ h1 {
 
 .button_entrar:hover {
     /* background: green; */
-    background: linear-gradient(174deg, rgb(138, 158, 139) 4%, rgb(16, 157, 23) 10%, rgb(4, 36, 7) 100%);
+    background: linear-gradient(174deg, rgb(238, 235, 227) 4%, rgb(63, 153, 206) 10%, rgb(156, 190, 196) 100%);
 }
 
 .button_esqueceuSenha {
@@ -137,14 +137,14 @@ h1 {
     top: 10%;
     left: 52.6%;
     margin-right: 2px;
-    background: linear-gradient(174deg, rgb(206, 128, 93) 0%, rgb(165, 78, 7) 71%);
+    background: linear-gradient(174deg, rgb(227, 233, 238) 0%, rgb(63, 153, 206) 71%);
     color: white;
     font-size: 2em;
 }
 
 .button_esqueceuSenha:hover {
     /* background: green; */
-    background: linear-gradient(174deg, rgb(138, 158, 139) 4%, rgb(16, 157, 23) 10%, rgb(4, 36, 7) 100%);
+    background: linear-gradient(174deg, rgb(138, 158, 139) 4%, rgb(138, 205, 207) 10%, rgb(4, 36, 7) 100%);
 }
 
 .button_cadastro {
@@ -154,7 +154,7 @@ h1 {
     top: 10%;
     left: 52.6%;
     margin-right: 2px;
-    background: linear-gradient(174deg, rgb(206, 128, 93) 0%, rgb(165, 78, 7) 71%);
+    background: linear-gradient(174deg, rgb(227, 233, 238) 0%, rgb(63, 153, 206) 71%);
     color: white;
     font-size: 2em;
 }
